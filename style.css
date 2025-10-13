@@ -134,10 +134,30 @@ h1 {
   font-weight: bold;
 }
 
-.reset-btn:hover {
-  background: #764ba2;
+.back-btn {
+  background: #b41ece;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  margin-top: 15px;
+  left: 100px;
+}
+
+.back-btn:hover {
+  background: #9a17b8;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(12, 12, 12, 0.604);
+}
+
+.reset-btn:hover {
+  background: #3f0bb8e6;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(14, 15, 15, 0.908);
 }
 
 .score {

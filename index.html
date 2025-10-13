@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Tic Tac Toe</h1>
+    <h1 class="typing"></h1>
     
     <div class="mode-selection">
       <button class="mode-btn active" id="friendModeBtn">👥 With Friends</button>
@@ -18,8 +18,8 @@
     <!-- Friends Mode -->
     <div class="game-section active" id="friendMode">
       <div class="score">
-        <div class="score-item">X: <span id="scoreXFriend">0</span></div>
-        <div class="score-item">O: <span id="scoreOFriend">0</span></div>
+        <div class="score-item">Player X: <span id="scoreXFriend">0</span></div>
+        <div class="score-item">Player O: <span id="scoreOFriend">0</span></div>
         <div class="score-item">Ties: <span id="scoreTieFriend">0</span></div>
       </div>
       <div class="status" id="statusFriend">Player X's Turn</div>
@@ -64,6 +64,7 @@
       <button class="reset-btn" id="resetBtnAI">New Game</button>
       
     </div>
+    <button class="back-btn" id="back">Back</button>
     <div class="footer">
       <p>Developed by Ankit ❤️</p>
   </div>
