@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tic Tac Toe</h1>
+    
+    <div class="mode-selection">
+      <button class="mode-btn active" id="friendModeBtn">👥 With Friends</button>
+      <button class="mode-btn" id="aiModeBtn">🤖 With AI</button>
+    </div>
+
+    <!-- Friends Mode -->
+    <div class="game-section active" id="friendMode">
+      <div class="score">
+        <div class="score-item">X: <span id="scoreXFriend">0</span></div>
+        <div class="score-item">O: <span id="scoreOFriend">0</span></div>
+        <div class="score-item">Ties: <span id="scoreTieFriend">0</span></div>
+      </div>
+      <div class="status" id="statusFriend">Player X's Turn</div>
+      <div class="board" id="boardFriend">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+      </div>
+      <button class="reset-btn" id="resetBtnFriend">New Game</button>
+    </div>
+
+    <!-- AI Mode -->
+    <div class="game-section" id="aiMode">
+      <div class="difficulty-selector">
+        <button class="difficulty-btn active" data-difficulty="easy">Easy</button>
+        <button class="difficulty-btn" data-difficulty="medium">Medium</button>
+        <button class="difficulty-btn" data-difficulty="hard">Hard</button>
+      </div>
+      <div class="score">
+        <div class="score-item">You: <span id="scoreXAI">0</span></div>
+        <div class="score-item">AI: <span id="scoreOAI">0</span></div>
+        <div class="score-item">Ties: <span id="scoreTieAI">0</span></div>
+      </div>
+      <div class="status" id="statusAI">Your Turn (X)</div>
+      <div class="board" id="boardAI">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+      </div>
+      <button class="reset-btn" id="resetBtnAI">New Game</button>
+      
+    </div>
+    <div class="footer">
+      <p>Developed by Ankit ❤️</p>
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
