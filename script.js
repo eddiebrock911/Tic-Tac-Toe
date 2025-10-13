@@ -6,7 +6,7 @@ const aiMode = document.getElementById('aiMode');
 
 /* ===== Typing animation (hero) ===== */
     (function typingAnim() {
-      const texts = ["Tic Tac Toe", "Creator By Ankit", "Enjoy the Game!"];
+      const texts = ["Tic Tac Toe", "Creator Ankit", "Enjoy Game!"];
       let i = 0, j = 0, isDeleting = false;
       const el = document.querySelector('.typing');
 
