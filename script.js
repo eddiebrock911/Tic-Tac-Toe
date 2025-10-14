@@ -230,3 +230,9 @@ function highlightWinner(cells,board){
       console.log('Back button clicked');
       window.location.href = 'https://ankitai.onrender.com/';
     });
+
+  // Back button functionality
+    document.getElementById('back').addEventListener('click', function() {
+      console.log('Back button clicked');
+      window.location.href = 'https://spacekit.onrender.com/';
+    });
