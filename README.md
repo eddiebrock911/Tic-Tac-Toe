@@ -6,6 +6,10 @@ A simple and interactive web-based Tic Tac Toe game built with HTML, CSS, and Ja
 
 **[Play Now](https://tickit-rht5.onrender.com/)**
 
+## 👨‍💻 Author
+
+Your Name - [Ankit](https://www.instagram.com/__ankit._.op_/)
+
 ## 📝 Description
 
 This is a classic Tic Tac Toe game where two players (X and O) take turns marking spaces on a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. The game keeps track of wins for both players and ties.
@@ -103,10 +107,6 @@ Contributions are welcome! If you'd like to improve the game:
 ## 📜 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 👨‍💻 Author
-
-Your Name - [Your GitHub Profile](https://github.com/eddiebrock911)
 
 ## 🙏 Acknowledgments
 
