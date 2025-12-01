@@ -40,7 +40,7 @@ For questions or feedback, please reach out:
 
 1. Clone the repository:
 ```bash
-git clone (https://github.com/eddiebrock911/Tic-Tac-Toe)
+git clone https://github.com/eddiebrock911/Tic-Tac-Toe
 ```
 
 2. Navigate to the project directory:
